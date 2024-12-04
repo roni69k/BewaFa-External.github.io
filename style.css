@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.message h1 {
+  font-size: 24px;
+  color: #4caf50;
+}
+
+.message p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.contact-btn {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #45a049;
+}
+
+.Activate {
+  color: white;
+  background-color: #4caf50;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.Activate:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .message h1 {
+    font-size: 20px;
+  }
+
+  .message p {
+    font-size: 14px; /* Fixed this incomplete line */
+  }
+
+  .contact-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
